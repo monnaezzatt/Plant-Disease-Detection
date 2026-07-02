@@ -22,15 +22,12 @@ which helps it Cover a wide range of crops apple, corn, grape, potato, tomato, p
 - Images are resized to 64×64 pixels before training the model 
 
 How to run:
-1. Clone the repo
-git clone <repository-link>
-cd Plant-Disease-Detection
-2. Set up a virtual environment (recommended, but not required)
+1. Set up a virtual environment (recommended, but not required)
 python -m venv venv
 venv\Scripts\activate
-3. Install the dependencies
+2. Install the dependencies
 pip install -r requirements.txt
-4. Launch the app
+3. Launch the app
 streamlit run app.py
 
 
